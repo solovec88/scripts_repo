@@ -13,5 +13,6 @@ sudo add-apt-repository \
      stable"
 sudo apt update
 sudo apt install docker-ce -y
+wait
 sudo usermod -aG docker ${USER}
 echo " please reboot your PC"
